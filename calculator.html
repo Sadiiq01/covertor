@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container-cal">
+        <div class="title-cal">
+            <h1 style="margin-bottom: 2rem;">calculator : </h1>
+        </div>
+       <div class="all-button">
+        <div >
+            <input type="text" class="display-inp" >
+        </div>
+        <div class="main-calculator">
+            <div class="face5">
+                <button class="btn" onclick="displayValue('+')"> + </button>
+                <button class="btn" onclick="displayValue('-')"> - </button>
+                <button class="btn" onclick="displayValue('*')"> * </button>
+                <button class="btn" onclick="displayValue('/')"> / </button>
+            </div>
+            <div class="face1-cal">
+                <button class="btn" onclick="displayValue('1')"> 1 </button>
+                <button class="btn" onclick="displayValue('2')"> 2 </button>
+                <button class="btn" onclick="displayValue('3')"> 3 </button>
+                <button class="btn" onclick="displayValue('4')"> 4 </button>
+            </div>
+            <div class="face2">
+                <button class="btn" onclick="displayValue('5')"> 5 </button>
+                <button class="btn" onclick="displayValue('6')"> 6 </button>
+                <button class="btn" onclick="displayValue('7')"> 7 </button> 
+                <button class="btn" onclick="displayValue('8')"> 8 </button>
+            </div>
+            <div class="face3">
+                <button class="btn" onclick="displayValue('9')"> 9 </button>
+                <button class="btn" onclick="displayValue('0')"> 0 </button>
+                <button class=" btn" onclick="displayValue('.')"> . </button>
+                <button class="clearBtn btn"  onclick="clear()"> ce </button>
+            </div>
+
+           <div class="flex">
+            <div class="face4">
+                <button class="btn" onclick="ceil()">ceil</button> <br>
+                <button class="btn" onclick="floor()">floor</button>
+            </div>
+            <div class="face5">
+                <button class="btn" onclick="equalTo()">=</button>
+            </div>
+           </div>
+        </div>
+       </div>
+    </div>
+    <script src="calculator.js"></script>
+</body>
+</html>

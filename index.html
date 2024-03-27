@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+    <title>Convertor</title>
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <div class="logo-container">
+            <h3>convert</h3>
+        </div>
+        <div class="navigation-bar">
+            <ul>
+                <li><a class="homeBtn" style="cursor: pointer;">Home</a></li>
+                <li><a class="aboutBtn" href="#about" style="cursor: pointer;" >About</a></li>
+                <li><a class="suscribeUs"  style="cursor: pointer;">Subscribe Us</a></li>
+                <li><a class="btnServive" href="#service">Service</a></li>
+            </ul>
+        </div>
+        <div class="burger">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <div class="intro-container">
+        <h3>welcome to convertor / math project</h3>
+        <p>this is a basic website to check our use all version of the website 
+            my name is Sadiiq Mukhtaar Maxmed a programmer if you need app 
+            or web please contact me  
+        </p>
+        <button class="subscribMe">Subscribe Me</button>
+    </div>
+
+    <div class="date-container">
+        <p class="p-date1">
+            <span class="daySpan"></span>
+            <span class="dateSpan"></span>
+            <span class="monthSpan"></span>
+            <span class="yearSpan"></span>
+        </p>
+        <p class="p-date2">
+            <span class="hourSpan"></span>
+            <span class="minuteSpan"></span>
+            <span class="secondSpan"></span>
+        </p>
+    </div>
+
+
+    <div class="service-container " id="service">
+            <div class="simple-calc">
+                <h5>Simple Calculator</h5>
+                <p>
+                    this is a simple calculator , used for only basic math to use this 
+                    please click the button below
+                </p>
+                <button class="simpleCalcBtn Btn">use now</button>
+            </div>
+
+            <div class="age-calc">
+                <h5>Age Calculator</h5>
+                <p>
+                    this age calculator use to calculate
+                    your for a year not amonth or day
+                    to use tis click the button below
+                </p>
+                <button class="ageCalcBtn Btn">use now</button>
+            </div>
+    </div>
+
+    <div class="service-container2">
+        <div class="math-pow">
+            <h5>Math Power</h5>
+            <p>
+                this is a bsic Math powring you can pow every number you want
+            </p>
+            <button class="mathPowBtn Btn">use now</button>
+        </div>
+        <div class="convertor">
+            <h5>convertor</h5>
+            <p>
+               Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo ipsum corrupti! 
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex repellat nam tempora. 
+            </p>
+            <button class="convertorBtn Btn">use now</button>
+        </div>
+    </div>
+
+    <div class="about-us" id="about">
+        <h2>About Us </h2>
+        <hr>
+        <div class="first-about">
+            <!-- <div class="img">
+                <img src="img.jpg" alt="" srcset="">
+            </div> -->
+            <div class="text">
+                <h4>Who am i ? </h4>
+                <p style="max-width: 500px;">
+                    my name is Sadiiq Mukhtaar Maxamed,
+                    iam front-end developer iam making webs 
+                    at the front, my exprience is 2years, iam who
+                    make  this website 
+                </p>
+            </div>
+        </div>
+        <div class="second-about" style="padding:12px; margin-top:1rem ;">
+            <h4>why i make this web?</h4>
+            <p style="max-width: 700px; margin-top:1rem ;">
+                i make this website only i was needed to increase my knowledge for
+                front-end this website is basic not advanced
+                i'monly make it HTMl ,CSS , JS
+            </p>
+        </div>
+
+        <div class="subscribeUs-container">
+            <div class="intro-subscribeUs">
+                <h3>subscribe us </h3>
+                <div class="cancel" style="cursor: pointer; ">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <p>
+                to subscribe us enter this our info and when you finsh click the submit button 
+                and we contactr you hurry up 
+            </p>
+            <div class="form-container">
+                <form action="https://formspree.io/f/mleqwlnj"method="POST"> 
+                    <label> Name:</label> <br>
+                    <input type="text" name="name"><br>
+                    <label> Email:</label> <br>
+                    <input type="email" name="email"><br>
+                    <label>country: </label> <br>
+                    <input type="taxt" name="country"><br>
+                    <label>Date: </label> <br>
+                    <input type="taxt" name="Date" class="DateInp"><br>
+                    <button type="submit" class="Btn" style="float: inline-end;">Send</button>
+                </form>
+            </div>
+
+        </div>
+
+
+        <hr style="margin-top: 20%;margin-bottom: 3rem;">
+        <footer >
+            <div class="main-fo0ter"  style="margin-bottom: 4rem;">
+                <h5>convertor</h5>
+                <h5> &copy; convertor <span class="spanMonthTwo"></span> <span class="spanYearTwo"></span></h5>
+            </div>    
+        </footer>
+    </div>
+    <script src="main.js"> 
+    </script>
+</body>
+</html>
